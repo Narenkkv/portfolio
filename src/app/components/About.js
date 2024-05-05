@@ -1,27 +1,28 @@
 "use client";
 import React from "react";
-import "@/app/globals.css";
+import "@/app/globals.css"; 
 import Image from "next/image";
-import AboutAnimation from "@/app/components/AboutAnimation";
-import { Bio } from "@/app/data/ConstantData";
 import Typewriter from "typewriter-effect";
 import { Link, Button } from "@nextui-org/react";
+import AboutAnimation from "@/app/components/AboutAnimation";
+import { Bio } from "@/app/data/ConstantData";
+import { HeroContainer, HeroBg, HeroLeftContainer, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle} from "@/styles/aboutStyle";
 
 
 export default function About(){
 
     return (
         <div id="about">
-            <div className="aboutMainDiv">
-                <div className="aboutAnimation">
+            <HeroContainer>
+                <HeroBg>
                     <AboutAnimation />
-                </div>
-                <div className="aboutInnerContainer">
-                    <div className="aboutLeftContainer" id="Left">
-                        <div className="title">Hi, I am  {Bio.name}</div>
-                        <div className="aboutTextLoop">
-                            I am a
-                            <span className="text-violet-500 ">
+                </HeroBg>
+                <HeroInnerContainer >
+                    <HeroLeftContainer id="Left">
+                        <Title>Hi, I am {Bio.name}</Title>
+                        <TextLoop>
+                        I am a
+                            <Span>
                                 <Typewriter
                                     options={{
                                         strings: Bio.roles,
@@ -29,13 +30,13 @@ export default function About(){
                                         loop: true,
                                     }}
                                 />
-                            </span>
-                        </div>
-                        <div className="aboutDescription">{Bio.description}</div>
+                            </Span>
+                        </TextLoop>
+                        <SubTitle>{Bio.description}</SubTitle>
                         <div className="aboutResume">
                             <Button
                                 href="https://github.com/nextui-org/nextui" target="display"
-                                as={Link} className="resumeButton"
+                                as={Link} className="aboutResumeButton"
                                 color="primary"
                                 showAnchorIcon
                                 variant="solid"
@@ -43,12 +44,12 @@ export default function About(){
                                 Check Resume
                             </Button>
                         </div>
-                    </div>
-                    <div className="aboutRightContainer" id="Right">
-                        <Image className="aboutImg" src="/images/naren.JPG" alt="image"  width={300} height={200}/>
-                    </div>
-                </div>
-            </div>
+                    </HeroLeftContainer>
+                    <HeroRightContainer id="Right">
+                        <Image className="profileImg" src="/images/profile.PNG" alt="image"  width={300} height={200}/>
+                    </HeroRightContainer>
+                </HeroInnerContainer>
+            </HeroContainer>
         </div>
     );
 }

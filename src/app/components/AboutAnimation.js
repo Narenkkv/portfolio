@@ -1,10 +1,14 @@
 import React from "react";
 import "@/app/globals.css";
+import styled from 'styled-components';
 
 export default function AboutAnimation() {
-
+    const Div = styled.div`
+            width:600px;
+            height: 500px;
+        `
     return (
-        <div className="about-animaation-div">
+        <Div>
             <svg
             className="BgAnimation__svg"
             viewBox="0 0 602 602"
@@ -362,6 +366,6 @@ export default function AboutAnimation() {
                 </linearGradient>
             </defs>
             </svg>
-        </div>
+        </Div>
     );
 }

@@ -20,7 +20,7 @@ export default function Navbars() {
             <NavbarContent>
                 <NavbarBrand> {/* Integrate the NavLogo component */}
                     <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20', cursor: 'pointer' }}>
-                        <DiCssdeck size="3rem" /> <span style={{ fontSize: "18px", fontWeight: "bold", margin: "0px" }}>Portfolios</span>
+                        <DiCssdeck size="3rem" /> <span style={{ fontSize: "18px", fontWeight: "bold", margin: "0px" }}>Portfolio</span>
                     </a>
                 </NavbarBrand>
                 <NavbarMenuToggle
@@ -31,17 +31,17 @@ export default function Navbars() {
 
             <NavbarContent className="hidden sm:flex gap-4" justify="center">
                 <NavbarItem>
-                    <Link color="foreground" href="#" className="about-link nav-bar-list hover:text-violet-500 ">
+                    <Link color="foreground" href="#about" className="about-link nav-bar-list hover:text-violet-500 ">
                         About
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link href="#" color="foreground" className="skills-link nav-bar-list hover:text-violet-500">
+                    <Link href="#skills" color="foreground" className="skills-link nav-bar-list hover:text-violet-500">
                         Skills
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" href="#" className="exp-link nav-bar-list hover:text-violet-500">
+                    <Link color="foreground" href="#experience" className="exp-link nav-bar-list hover:text-violet-500">
                         Experience
                     </Link>
                 </NavbarItem>
