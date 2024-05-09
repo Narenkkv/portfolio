@@ -118,11 +118,11 @@ export const skillSets = [
 export const experiences = [
     {
         id: 0,
-        img: "/images/logo_1.png",
+        img: "/images/leapsurge.png",
         role: "Software Developer",
         company:"Leapsurge Business Innovation Pvt Ltd",
         date:"July 2023 - Present",
-        desc:"Working as a full Stack Developer",
+        desc:"As a full stack developer, I specialize in crafting high-performance web applications. With expertise in both server-side and client-side development, I ensure applications are fast, secure, and scalable. Leveraging Django for its robustness, I handle server-side operations, data processing, and business logic. Additionally, I integrate FastAPI for efficient API development, enabling rapid creation of intuitive interfaces.",
         skills: [
             "Python",
             "Django",
@@ -135,7 +135,19 @@ export const experiences = [
             "Tailwindcss",
           ],
           doc: "",
-
-
+    },
+    {
+        id: 1,
+        img: "/images/flipkart.png",
+        role: "Software Engineer - Data Analysis",
+        company:"Flipkart Internet Private Limited",
+        date:"Dec 2020 - July 2023",
+        desc:"Responsible for creating reports and visualizations to communicate the findings to various stakeholders.Clean, and organize the data from various sources. Perform statistical analysis and develop reports and visualizations.working in close collaboration with a various business units.",
+        skills: [
+            "Python",
+            "SQL",
+            "PowerBI"
+          ],
+          doc: "",
     }
 ]

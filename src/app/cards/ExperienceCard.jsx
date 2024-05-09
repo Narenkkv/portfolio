@@ -144,7 +144,28 @@ export default function ExperienceCard({ experience }){
         <Card>
             <Top>
                 <Images src={experience.img} />
+                <Body>
+                    <Role>{experience.role}</Role>
+                    <Company>{experience.company}</Company>
+                    <Date>{experience.date}</Date>
+                </Body>
             </Top>
+            <Description>
+                {experience.desc && <span>{experience.desc}</span>}
+                {experience.skills && <>
+                    <br /> 
+                    <br /> 
+                    <Skills>
+                        <b>Skills:</b>
+                        <ItemWrapper>
+                            {experience.skills.map((skill,index) => (
+                                <Skill key={index}>• {skill}</Skill>
+                            ))}
+                        </ItemWrapper>
+                    </Skills>
+                    </>
+                }
+            </Description>
         </Card>
     );
 
