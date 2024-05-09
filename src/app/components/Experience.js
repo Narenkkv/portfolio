@@ -7,6 +7,7 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import { Container, Wrapper, Title, Desc, TimelineSection }  from "@/styles/experienceStyle";
+import ExperienceCard  from "@/app/cards/ExperienceCard";
 import { experiences } from "@/app/data/ConstantData";
 
 export default function Experience(){
@@ -27,7 +28,7 @@ export default function Experience(){
                                     {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    {/* <ExperienceCard experience={experience}/> */}
+                                    <ExperienceCard experience={experience}/>
                                 </TimelineContent>
                         </TimelineItem>
                         ))}

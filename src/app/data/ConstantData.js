@@ -116,5 +116,26 @@ export const skillSets = [
 ];
 
 export const experiences = [
-    
+    {
+        id: 0,
+        img: "/images/logo_1.png",
+        role: "Software Developer",
+        company:"Leapsurge Business Innovation Pvt Ltd",
+        date:"July 2023 - Present",
+        desc:"Working as a full Stack Developer",
+        skills: [
+            "Python",
+            "Django",
+            "Azure",
+            "FastAPI",
+            "MSSQL",
+            "Html",
+            "Css",
+            "JavaScript",
+            "Tailwindcss",
+          ],
+          doc: "",
+
+
+    }
 ]
