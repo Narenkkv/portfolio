@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 import { Link, Button } from "@nextui-org/react";
 import AboutAnimation from "@/app/components/AboutAnimation";
 import { Bio } from "@/app/data/ConstantData";
-import { HeroContainer, HeroBg, HeroLeftContainer, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle} from "@/styles/aboutStyle";
+import { HeroContainer, Img, HeroBg, HeroLeftContainer, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle} from "@/styles/aboutStyle";
 
 
 export default function About(){
@@ -46,7 +46,7 @@ export default function About(){
                         </div>
                     </HeroLeftContainer>
                     <HeroRightContainer id="Right">
-                        <Image className="profileImg" src="/images/profile.PNG" alt="image"  width={300} height={200}/>
+                        <Img src="/images/profile.png" alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
             </HeroContainer>
