@@ -46,7 +46,7 @@ export default function Navbars() {
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" href="#" className="proj-link nav-bar-list hover:text-violet-500">
+                    <Link color="foreground" href="#projects" className="proj-link nav-bar-list hover:text-violet-500">
                         Projects
                     </Link>
                 </NavbarItem>

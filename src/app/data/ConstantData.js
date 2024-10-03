@@ -120,7 +120,7 @@ export const experiences = [
         id: 0,
         img: "/images/leapsurge.png",
         role: "Software Developer",
-        company:"Leapsurge Business Innovation Pvt Ltd",
+        company:"Leapsurge Business Innovation Pvt Ltd.",
         date:"July 2023 - Present",
         desc:"As a full stack developer, I specialize in crafting high-performance web applications. With expertise in both server-side and client-side development, I ensure applications are fast, secure, and scalable. Leveraging Django for its robustness, I handle server-side operations, data processing, and business logic. Additionally, I integrate FastAPI for efficient API development, enabling rapid creation of intuitive interfaces.",
         skills: [
@@ -129,8 +129,7 @@ export const experiences = [
             "Azure",
             "FastAPI",
             "MSSQL",
-            "Html",
-            "Css",
+            "Nextjs",
             "JavaScript",
             "Tailwindcss",
           ],
@@ -140,7 +139,7 @@ export const experiences = [
         id: 1,
         img: "/images/flipkart.png",
         role: "Software Engineer - Data Analysis",
-        company:"Flipkart Internet Private Limited",
+        company:"Flipkart Internet Private Limited.",
         date:"Dec 2020 - July 2023",
         desc:"Responsible for creating reports and visualizations to communicate the findings to various stakeholders.Clean, and organize the data from various sources. Perform statistical analysis and develop reports and visualizations.working in close collaboration with a various business units.",
         skills: [
@@ -149,5 +148,87 @@ export const experiences = [
             "PowerBI"
           ],
           doc: "",
+    },
+    {
+        id: 2,
+        img: "/images/medlife.png",
+        role: "Business Analyst",
+        company:"Medlife International  Private Limited.",
+        date:"Jul 2019 - Dec 2020",
+        desc:"Works on analyzing business data to identify trends, patterns, and insights that drive decision-making.Gather and interpret data from various sources, clean and prepare it for analysis, and create reports or dashboards to showcase their findings and collaborate with stakeholders to understand their data needs and provide actionable insights to solve business problems. Additionally, help improve data processes, optimize performance, and recommend data-driven strategies to support business growth and efficiency. key role is turning raw data into valuable information for decision-making.",
+        skills: [
+            "Python",
+            "SQL",
+            "PowerBI",
+            "Excel"
+          ],
+          doc: "",
+    },
+    {
+        id: 3,
+        img: "/images/c2logo.png",
+        role: "Technical Support Engineer",
+        company:"C-Square info solution.",
+        date:"Jun 2018 - Jul 2019",
+        desc:"As a support engineer is responsible for troubleshooting and resolving technical issues,providing timely solutions to customers, and responding to inquiries via phone, email, or chat. They escalate complex problems to higher-level support teams when necessary, while also monitoring system performance and providing proactive support. Additionally, they guide users through troubleshooting processes,collaborate with internal teams to resolve issues, and document solutions for future reference. Their duties extend to developing and maintaining APIs, handling SQL queries, and optimizing databases. The role also involves installing, configuring, and maintaining software, ensuring security by implementing best practices, and staying updated on new technologies and tools to enhance support services.",
+        skills: [
+            "SQL",
+            "Power Builder",
+          ],
+          doc: "",
+    },
+    {
+        id: 4,
+        img: "/images/wondersoft.png",
+        role: "Associate Support Engineer",
+        company:"Wondersoft Pvt Ltd.",
+        date:"Jul 2015 - Nov 2017",
+        desc:"As a support engineer is responsible for troubleshooting and resolving technical issues,providing timely solutions to customers, and responding to inquiries via phone, email, or chat. They escalate complex problems to higher-level support teams when necessary, while also monitoring system performance and providing proactive support. Additionally, they guide users through troubleshooting processes,collaborate with internal teams to resolve issues, and document solutions for future reference.The role also involves installing, configuring, and maintaining software , ensuring security by implementing best practices, and staying updated on new technologies and tools to enhance support services.",
+        skills: [
+            "SQL"
+          ],
+          doc: "",
     }
 ]
+
+export const projects = [
+    {
+        id: 0,
+        title: "Leapsurge BI",
+        date: "Jul 2022 - Aug 2024",
+        mode:"Offical",
+        description:
+          "As part of this project, I developed an advanced analytical software solution that seamlessly integrates Power BI reports and dashboards. This solution enables businesses to embed interactive visualizations directly into their existing platforms, providing real-time data insights and analytics without needing to leave their application environment.Incorporated Power BI’s embedded analytics feature to dynamically integrate reports and dashboards, providing a seamless user experience.Delivered up-to-date insights by connecting live data sources to Power BI, allowing users to make timely business decisions.Implemented a fine-grained access control system to ensure that sensitive data is only available to authorized users, complying with enterprise-level security standards.",
+        image:
+          ["/images/projects/dashboardScreen.png"],
+          cardprojectimage:"/images/projects/dashboardScreen.png",
+        tags: [
+          "Python",
+          "Django",
+          "Azure Cloud",
+          "Azure AD B2C",
+          "PowerBI Embed",
+          "Azure Devops",
+          "PowerBI Rest APIs",
+          "MSSQL",
+          "JavaScript"
+        ],
+        category: "web app",
+        github: "",
+        webapp: "",
+      },
+      
+]
+
+export const education = [
+  {
+    id: 0,
+    img: "/images/clg.png",
+    college: "Maharaja Insitute Of Technology, Coimbatore",
+    university : "Anna university",
+    date: "Oct 2011 - Mar 2015",
+    grade: "6.02 CGPA",
+    desc: "I have completed a Bachelor's degree in Computer Science and Engineering at Maharaja Insitute Of Technology, Coimbatore. I have a CGPA of 6.02. Completed a comprehensive curriculum covering core computer science principles, software development, and engineering practices. Developed strong analytical and problem-solving skills through hands-on projects and collaborative coursework.",
+    degree: "Bachelor of Engineering - B.E, Computer Science and Engineering",
+  },
+];
