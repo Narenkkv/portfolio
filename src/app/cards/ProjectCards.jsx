@@ -118,7 +118,7 @@ const Avatar = styled.img`
 const ProjectCards = ({project,setOpenModal}) =>{
     return(
         <Card onClick={() => setOpenModal({state: true, project:project})}>
-            <Image src={project.cardprojectimage}/>
+            <Image src={project.cardprojectimage} alt={project.title}/>
             <Tags>
                 {project.tags?.map((tag, index) => (
                 <Tag key={index}>{tag}</Tag>
@@ -129,11 +129,11 @@ const ProjectCards = ({project,setOpenModal}) =>{
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
-            <Members>
+            {/* <Members>
                 {project.members?.map((members)=>(
-                    <Avatar src={members.img}/>
+                    <Avatar src={members.img} alt={members.name} />
                 ))}
-            </Members>
+            </Members> */}
         </Card>
     )
 }
