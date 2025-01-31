@@ -35,7 +35,7 @@ export default function About(){
                         <SubTitle>{Bio.description}</SubTitle>
                         <div className="aboutResume">
                             <Button
-                                href="https://github.com/nextui-org/nextui" target="display"
+                                href="/images/Naren.pdf" target="display"
                                 as={Link} className="aboutResumeButton"
                                 color="primary"
                                 showAnchorIcon

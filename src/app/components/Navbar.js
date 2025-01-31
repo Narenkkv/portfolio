@@ -11,7 +11,7 @@ export default function Navbars() {
         "About",
         "Skills",
         "Experience",
-        "Projects",
+        // "Projects",
         "Education",
     ];
 
@@ -46,9 +46,9 @@ export default function Navbars() {
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" href="#projects" className="proj-link nav-bar-list hover:text-violet-500">
+                    {/* <Link color="foreground" href="#projects" className="proj-link nav-bar-list hover:text-violet-500">
                         Projects
-                    </Link>
+                    </Link> */}
                 </NavbarItem>
                 <NavbarItem>
                     <Link color="foreground" href="#" className="edu-link nav-bar-list hover:text-violet-500">

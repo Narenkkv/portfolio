@@ -116,12 +116,29 @@ export const skillSets = [
 ];
 
 export const experiences = [
-    {
+      {
         id: 0,
+        img: "/images/aster.png",
+        role: "Assistant Manager ",
+        company:"Aster Pharmacy.",
+        date:"Sep 2024 - Present",
+        desc:"Oversee the development and maintenance of scalable, secure, and high-performance web applications using Python Django and FastAPI. Actively code, guide the team, resolve technical challenges, ensure quality standards, and manage workflows for efficient project delivery.",
+        skills: [
+            "Python",
+            "Django",
+            "Azure",
+            "FastAPI",
+            "MSSQL",
+            "JavaScript"
+          ],
+          doc: "",
+    },
+    {
+        id: 1,
         img: "/images/leapsurge.png",
         role: "Software Developer",
         company:"Leapsurge Business Innovation Pvt Ltd.",
-        date:"July 2023 - Present",
+        date:"July 2023 - Aug 2024",
         desc:"As a full stack developer, I specialize in crafting high-performance web applications. With expertise in both server-side and client-side development, I ensure applications are fast, secure, and scalable. Leveraging Django for its robustness, I handle server-side operations, data processing, and business logic. Additionally, I integrate FastAPI for efficient API development, enabling rapid creation of intuitive interfaces.",
         skills: [
             "Python",
@@ -136,7 +153,7 @@ export const experiences = [
           doc: "",
     },
     {
-        id: 1,
+        id: 2,
         img: "/images/flipkart.png",
         role: "Software Engineer - Data Analysis",
         company:"Flipkart Internet Private Limited.",
@@ -150,7 +167,7 @@ export const experiences = [
           doc: "",
     },
     {
-        id: 2,
+        id: 3,
         img: "/images/medlife.png",
         role: "Business Analyst",
         company:"Medlife International  Private Limited.",
@@ -165,7 +182,7 @@ export const experiences = [
           doc: "",
     },
     {
-        id: 3,
+        id: 4,
         img: "/images/c2logo.png",
         role: "Technical Support Engineer",
         company:"C-Square info solution.",
@@ -178,7 +195,7 @@ export const experiences = [
           doc: "",
     },
     {
-        id: 4,
+        id: 5,
         img: "/images/wondersoft.png",
         role: "Associate Support Engineer",
         company:"Wondersoft Pvt Ltd.",
@@ -195,6 +212,31 @@ export const projects = [
     {
         id: 0,
         title: "Leapsurge BI",
+        date: "Jul 2022 - Aug 2024",
+        mode:"Offical",
+        description:
+          "As part of this project, I developed an advanced analytical software solution that seamlessly integrates Power BI reports and dashboards. This solution enables businesses to embed interactive visualizations directly into their existing platforms, providing real-time data insights and analytics without needing to leave their application environment.Incorporated Power BI’s embedded analytics feature to dynamically integrate reports and dashboards, providing a seamless user experience.Delivered up-to-date insights by connecting live data sources to Power BI, allowing users to make timely business decisions.Implemented a fine-grained access control system to ensure that sensitive data is only available to authorized users, complying with enterprise-level security standards.",
+        image:
+          ["/images/projects/dashboardScreen.png"],
+          cardprojectimage:"/images/projects/dashboardScreen.png",
+        tags: [
+          "Python",
+          "Django",
+          "Azure Cloud",
+          "Azure AD B2C",
+          "PowerBI Embed",
+          "Azure Devops",
+          "PowerBI Rest APIs",
+          "MSSQL",
+          "JavaScript"
+        ],
+        category: "web app",
+        github: "",
+        webapp: "",
+      },
+      {
+        id: 1,
+        title: "Leapsurge MDM",
         date: "Jul 2022 - Aug 2024",
         mode:"Offical",
         description:

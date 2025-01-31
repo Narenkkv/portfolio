@@ -26,15 +26,15 @@ export default function Home() {
             <Skills />
             <Experience />
           </div>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
           <div>
             <Educations />
             <ContactsForm />
           </div>
         </div>
-        {openModal.state &&
+        {/* {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-          }
+          } */}
       </main>
     </NextUIProvider>
   );
